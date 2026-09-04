@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      context: ./projeto-front-main
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
